@@ -4,6 +4,10 @@
     <div class ="jumbotron text-center">
         <h1>Gestion matériel</h1>
         <p>Ici vous pouvez ajouter vos matériels empruntés</p>
+        {{ form_start(form) }}
+            {{ form_widget(form) }}
+        <button class="btn btn-primary">Ajouter</button>
+        {{ form_end(form) }}
     </div>
 
 {% endblock %}
