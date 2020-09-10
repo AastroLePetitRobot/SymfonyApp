@@ -8,14 +8,26 @@
 
     <div class = "container">
         <h2>Les matériels empruntés</h2>
-        <div class="row flex">
-            {% for x in materiel %}
-                <p>{{ x.type }}</p>
-                <p>{{ x.number }}</p>
-                <p>{{ x.description }}</p>
-                <p>{{ x.createdAt|date('d,m,Y')  }}</p>
-            {% endfor %}
-        </div>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Number</th>
+                <th scope="col">Description</th>
+                <th scope="col">Date</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for x in materiel %}
+                <tr>
+                    <th>{{ x.type }}</th>
+                    <td>{{ x.number }}</td>
+                    <td>{{ x.description }}</td>
+                    <td>{{ x.createdAt|date('d/m/Y')  }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 
 {% endblock %}
