@@ -13,6 +13,7 @@ class HomeControllerTest extends WebTestCase
         $client = static::CreateClient();
         $client->request('GET','/');
         $this->assertResponseStatusCodeSame(Response::HTTP_OK);
+        $this->assertSelectorTextContains('h1','Gestion matériel');
     }
     public function testHomeMaterielsController()
     {
