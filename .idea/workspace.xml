@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html.twig" afterDir="false" />
-    </list>
+    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Création des deux pages" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,8 +175,16 @@
       <workItem from="1599689601132" duration="540000" />
       <workItem from="1599690150471" duration="486000" />
       <workItem from="1599727671630" duration="3085000" />
-      <workItem from="1599730770939" duration="5005000" />
+      <workItem from="1599730770939" duration="5246000" />
     </task>
+    <task id="LOCAL-00001" summary="Création des deux pages">
+      <created>1599735973664</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599735973664</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,6 +201,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Création des deux pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Création des deux pages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599735137789">
@@ -229,10 +235,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599689826230" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599735809150">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599736010929">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599735809150" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599736010929" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1599689089464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
