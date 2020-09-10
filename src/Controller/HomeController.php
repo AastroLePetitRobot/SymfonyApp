@@ -29,6 +29,7 @@ class HomeController extends AbstractController
         {
            $this->em->persist($materiels);
             $this->em->flush();
+            $this->addFlash('sucess','Votre matériel à bien été ajouté');
 
         }
         return $this->render('pages/home.html.twig',

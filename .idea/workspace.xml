@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout du Formulaire dans la page Home à l'aide de php /bin/console make:form.">
+    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout de script pour rendre le formulaire fonctionnel pour qu'il envoie en base de donnée.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/pages/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/pages/home.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,7 @@
       <workItem from="1599690150471" duration="486000" />
       <workItem from="1599727671630" duration="3085000" />
       <workItem from="1599730770939" duration="6063000" />
-      <workItem from="1599745027516" duration="11387000" />
+      <workItem from="1599745027516" duration="12375000" />
     </task>
     <task id="LOCAL-00001" summary="Création des deux pages">
       <created>1599735973664</created>
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599755464542</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ajout de script pour rendre le formulaire fonctionnel pour qu'il envoie en base de donnée.">
+      <created>1599756722009</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1599756722009</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +248,8 @@
     <MESSAGE value="Création de la BDD avec un fichier migrate. Création script pour afficher les donnée en BDD dans la seconde page." />
     <MESSAGE value="Affichage de la BDD sous forme de tableau." />
     <MESSAGE value="Ajout du Formulaire dans la page Home à l'aide de php /bin/console make:form." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du Formulaire dans la page Home à l'aide de php /bin/console make:form." />
+    <MESSAGE value="Ajout de script pour rendre le formulaire fonctionnel pour qu'il envoie en base de donnée." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout de script pour rendre le formulaire fonctionnel pour qu'il envoie en base de donnée." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599745912756">
