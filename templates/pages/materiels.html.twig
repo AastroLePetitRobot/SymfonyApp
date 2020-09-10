@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+{% block title 'Visualisez les matériel' %}
+{% block body %}
+    <div class ="jumbotron text-center">
+        <h1>Gestion matériel</h1>
+        <p>Ici vous pouvez retrouver vos matériels empruntés</p>
+    </div>
+
+    <div class = "container">
+        <h2>Les matériels empruntés</h2>
+        <table class="table">
+            <thead>
+            <tr>
+                <th scope="col">Type</th>
+                <th scope="col">Number</th>
+                <th scope="col">Description</th>
+                <th scope="col">Date</th>
+            </tr>
+            </thead>
+            <tbody>
+                {% for x in materiel %}
+                <tr>
+                    <th>{{ x.type }}</th>
+                    <td>{{ x.number }}</td>
+                    <td>{{ x.description }}</td>
+                    <td>{{ x.createdAt|date('d/m/Y')  }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+{% endblock %}
