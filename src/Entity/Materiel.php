@@ -4,6 +4,8 @@ namespace App\Entity;
 
 use App\Repository\MaterielRepository;
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\Validator\Constraints as Assert;
+
 
 /**
  * @ORM\Entity(repositoryClass=MaterielRepository::class)
@@ -24,16 +26,19 @@ class Materiel
 
     /**
      * @ORM\Column(type="string", length=255)
+     * @Assert\NotBlank()
      */
     private $number;
 
     /**
      * @ORM\Column(type="text", options={"default": ""})
+     * @Assert\NotBlank()
      */
     private $description;
 
     /**
      * @ORM\Column(type="datetime")
+     * @Assert\NotBlank()
      */
     private $createdAt;
 
