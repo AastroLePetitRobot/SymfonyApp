@@ -6,4 +6,16 @@
         <p>Ici vous pouvez retrouver vos matériels empruntés</p>
     </div>
 
+    <div class = "container">
+        <h2>Les matériels empruntés</h2>
+        <div class="row flex">
+            {% for x in materiel %}
+                <p>{{ x.type }}</p>
+                <p>{{ x.number }}</p>
+                <p>{{ x.description }}</p>
+                <p>{{ x.createdAt|date('d,m,Y')  }}</p>
+            {% endfor %}
+        </div>
+    </div>
+
 {% endblock %}
