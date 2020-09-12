@@ -31,10 +31,10 @@ class Materiel
     private $number;
 
     /**
-     * @ORM\Column(type="text", options={"default": ""})
+     * @ORM\Column(type="string", length=16777215)
      * @Assert\NotBlank()
      */
-    private $description;
+    private $description ;
 
     /**
      * @ORM\Column(type="datetime")
@@ -45,7 +45,10 @@ class Materiel
     public function __construct()
     {
         $this->createdAt = new \DateTime();
+        $this->description = ""; /*pour que la descriptions soit empty en default value */
+
     }
+
 
 
     public function getId(): ?int
