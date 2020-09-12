@@ -12,6 +12,7 @@ use Symfony\Component\Validator\Constraints as Assert;
  */
 class Materiel
 {
+
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
@@ -31,7 +32,7 @@ class Materiel
     private $number;
 
     /**
-     * @ORM\Column(type="string", length=16777215)
+     * @ORM\Column(type="string", length=16777215,)
      * @Assert\NotBlank()
      */
     private $description ;
@@ -45,8 +46,6 @@ class Materiel
     public function __construct()
     {
         $this->createdAt = new \DateTime();
-        $this->description = ""; /*pour que la descriptions soit empty en default value */
-
     }
 
 

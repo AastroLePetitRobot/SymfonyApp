@@ -19,12 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout d'une fonction dans le HomeControllerTest.php">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Correction du medium text pour description.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200910141309.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/migrations/Version20200910141802.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200910141802.php" beforeDir="false" afterPath="$PROJECT_DIR$/migrations/Version20200912190515.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/migrations/Version20200912192351.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/Materiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Materiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/MaterielType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MaterielType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +202,8 @@
       <workItem from="1599745027516" duration="18721000" />
       <workItem from="1599916005372" duration="541000" />
       <workItem from="1599927354602" duration="3283000" />
-      <workItem from="1599936945713" duration="1667000" />
+      <workItem from="1599936945713" duration="3085000" />
+      <workItem from="1599941435261" duration="1416000" />
     </task>
     <task id="LOCAL-00001" summary="Création des deux pages">
       <created>1599735973664</created>
@@ -281,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599779777802</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Correction du medium text pour description.">
+      <created>1599938780854</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599938780854</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,7 +319,8 @@
     <MESSAGE value="Ajout de fonction pour testé les attribut de l'entité matériels. Ici on test number et description pour voir si ils sont nul ou non." />
     <MESSAGE value="Ajout de test fonctionnels sur les Controller avec un fichier HomeControllerTest.php" />
     <MESSAGE value="Ajout d'une fonction dans le HomeControllerTest.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout d'une fonction dans le HomeControllerTest.php" />
+    <MESSAGE value="Correction du medium text pour description." />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction du medium text pour description." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599745912756">
