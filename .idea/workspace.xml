@@ -19,9 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout de test fonctionnels sur les Controller avec un fichier HomeControllerTest.php">
+    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout du test du formulaire.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Controller/HomeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Controller/HomeControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MaterielsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MaterielsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Materiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Materiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/MaterielType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MaterielType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +165,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -196,7 +200,13 @@
       <workItem from="1599690150471" duration="486000" />
       <workItem from="1599727671630" duration="3085000" />
       <workItem from="1599730770939" duration="6063000" />
-      <workItem from="1599745027516" duration="18551000" />
+      <workItem from="1599745027516" duration="18721000" />
+      <workItem from="1599916005372" duration="541000" />
+      <workItem from="1599927354602" duration="3283000" />
+      <workItem from="1599936945713" duration="3085000" />
+      <workItem from="1599941435261" duration="7141000" />
+      <workItem from="1599950386793" duration="2709000" />
+      <workItem from="1600028857160" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="Création des deux pages">
       <created>1599735973664</created>
@@ -268,7 +278,42 @@
       <option name="project" value="LOCAL" />
       <updated>1599779120568</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Ajout d'une fonction dans le HomeControllerTest.php">
+      <created>1599779777802</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1599779777802</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Correction du medium text pour description.">
+      <created>1599938780854</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1599938780854</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Correction du type en liste et correction du champs description en nullable dans le formulaire.">
+      <created>1599942925692</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1599942925692</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ajout du test pour la requete du formulaire.">
+      <created>1599950441483</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1599950441483</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ajout du test du formulaire.">
+      <created>1599952876460</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599952876460</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +342,12 @@
     <MESSAGE value="Ajout d'un directory Entity dans le directory Test. Et création du class MaterielEntityTest pour tester l'entity Test." />
     <MESSAGE value="Ajout de fonction pour testé les attribut de l'entité matériels. Ici on test number et description pour voir si ils sont nul ou non." />
     <MESSAGE value="Ajout de test fonctionnels sur les Controller avec un fichier HomeControllerTest.php" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout de test fonctionnels sur les Controller avec un fichier HomeControllerTest.php" />
+    <MESSAGE value="Ajout d'une fonction dans le HomeControllerTest.php" />
+    <MESSAGE value="Correction du medium text pour description." />
+    <MESSAGE value="Correction du type en liste et correction du champs description en nullable dans le formulaire." />
+    <MESSAGE value="Ajout du test pour la requete du formulaire." />
+    <MESSAGE value="Ajout du test du formulaire." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du test du formulaire." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599745912756">
@@ -308,6 +358,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="536" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599728518629" />
+    <state x="574" y="188" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1599943202828">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="188" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.824@0.0.1536.824" timestamp="1599943202828" />
     <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1599733560312">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -328,17 +382,25 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1599689826230" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599779125295">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1599947723819">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599779125295" />
+    <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599947723819" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599952889487">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599952889487" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1599689089464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1599689089464" />
-    <state x="513" y="156" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1599778573061">
+    <state x="513" y="156" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1599950503288">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="513" y="156" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1599778573061" />
+    <state x="513" y="156" key="com.jetbrains.php.test.PhpNewTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1599950503288" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1599943897086">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1599943897086" />
   </component>
 </project>
