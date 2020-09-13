@@ -19,8 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout du test pour la requete du formulaire.">
+    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Ajout du test du formulaire.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/MaterielsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/MaterielsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Materiel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Materiel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/MaterielType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/MaterielType.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +205,8 @@
       <workItem from="1599927354602" duration="3283000" />
       <workItem from="1599936945713" duration="3085000" />
       <workItem from="1599941435261" duration="7141000" />
-      <workItem from="1599950386793" duration="2421000" />
+      <workItem from="1599950386793" duration="2709000" />
+      <workItem from="1600028857160" duration="944000" />
     </task>
     <task id="LOCAL-00001" summary="Création des deux pages">
       <created>1599735973664</created>
@@ -301,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599950441483</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Ajout du test du formulaire.">
+      <created>1599952876460</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1599952876460</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,7 +346,8 @@
     <MESSAGE value="Correction du medium text pour description." />
     <MESSAGE value="Correction du type en liste et correction du champs description en nullable dans le formulaire." />
     <MESSAGE value="Ajout du test pour la requete du formulaire." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout du test pour la requete du formulaire." />
+    <MESSAGE value="Ajout du test du formulaire." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajout du test du formulaire." />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599745912756">
@@ -373,10 +386,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599947723819" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599950448291">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1599952889487">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599950448291" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1599952889487" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1599689089464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

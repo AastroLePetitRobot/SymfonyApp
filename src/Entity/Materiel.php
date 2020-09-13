@@ -6,13 +6,11 @@ use App\Repository\MaterielRepository;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 
-
 /**
  * @ORM\Entity(repositoryClass=MaterielRepository::class)
  */
 class Materiel
 {
-
     /**
      * @ORM\Id
      * @ORM\GeneratedValue
@@ -35,7 +33,7 @@ class Materiel
      * @ORM\Column(type="string", length=16777215,)
      * @Assert\NotBlank()
      */
-    private $description ;
+    private $description;
 
     /**
      * @ORM\Column(type="datetime")
@@ -47,8 +45,6 @@ class Materiel
     {
         $this->createdAt = new \DateTime();
     }
-
-
 
     public function getId(): ?int
     {
@@ -102,6 +98,4 @@ class Materiel
 
         return $this;
     }
-
-
 }

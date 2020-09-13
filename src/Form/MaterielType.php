@@ -5,7 +5,6 @@ namespace App\Form;
 use App\Entity\Materiel;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
-use Symfony\Component\Form\Extension\Core\Type\TextType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -14,14 +13,14 @@ class MaterielType extends AbstractType
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
         $builder
-            ->add('type',ChoiceType::class,[
-                'required' =>false,
-                'choices' => $this->getChoices()
+            ->add('type', ChoiceType::class, [
+                'required' => false,
+                'choices' => $this->getChoices(),
             ])
             ->add('number')
-            ->add('description',null,[
-                'required'   => false,
-                'empty_data'=>'empty'
+            ->add('description', null, [
+                'required' => false,
+                'empty_data' => 'empty',
             ])
 
         ;
@@ -36,8 +35,8 @@ class MaterielType extends AbstractType
 
     private function getChoices()
     {
-        $choice= [""=>"","telephone"=>"telephone","pc"=>"pc","imprimante"=>"imprimante","tablette"=>"tablette"];
-        return $choice;
+        $choice = ['' => '', 'telephone' => 'telephone', 'pc' => 'pc', 'imprimante' => 'imprimante', 'tablette' => 'tablette'];
 
+        return $choice;
     }
 }
