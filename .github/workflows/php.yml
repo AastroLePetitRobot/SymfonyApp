@@ -32,6 +32,8 @@ jobs:
         mysql database: 'magestionmateriel' # Optional, default value is "test". The specified database which will be create
         mysql user: 'myadmin' # Required if "mysql root password" is empty, default is empty. The superuser for the specified database. Can use secrets, too
         mysql password: password
+    - name: Linter
+      run: php-cs-fixer fix --using-cache=no --rules=@Symfony src                                                                                                     
     - name: Test
       run: php bin/phpunit --coverage-text tests/
 
