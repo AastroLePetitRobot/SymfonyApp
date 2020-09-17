@@ -31,7 +31,12 @@ jobs:
         mysql database: 'magestionmateriel' # Optional, default value is "test". The specified database which will be create
         mysql user: 'myadmin' # Required if "mysql root password" is empty, default is empty. The superuser for the specified database. Can use secrets, too
         mysql password: password
+    - name: Init BDD
+      run:  php bin/console doctrine:migrations:migrate
     - name: Test
       run: php bin/phpunit --coverage-text tests/
+
+
+
       
     
