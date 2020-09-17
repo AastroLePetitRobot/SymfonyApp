@@ -19,12 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Linter aplliqué à mon projet avec la commande php-cs-fixer fix --using-cache=no --rules=@Symfony src">
-      <change beforePath="$PROJECT_DIR$/.idea/SymfonyApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SymfonyApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+    <list default="true" id="e74a5a9b-e178-4518-9f25-bd6e8c496014" name="Default Changelist" comment="Tests avec les coverages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml.dist" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml.dist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Controller/HomeControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Controller/HomeControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -210,7 +207,7 @@
       <workItem from="1600028857160" duration="1407000" />
       <workItem from="1600317881965" duration="204000" />
       <workItem from="1600325987220" duration="48000" />
-      <workItem from="1600330752394" duration="2587000" />
+      <workItem from="1600330752394" duration="4334000" />
     </task>
     <task id="LOCAL-00001" summary="Création des deux pages">
       <created>1599735973664</created>
@@ -324,7 +321,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600030227667</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Tests avec les coverages">
+      <created>1600333833945</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1600333833945</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -359,7 +363,8 @@
     <MESSAGE value="Ajout du test pour la requete du formulaire." />
     <MESSAGE value="Ajout du test du formulaire." />
     <MESSAGE value="Linter aplliqué à mon projet avec la commande php-cs-fixer fix --using-cache=no --rules=@Symfony src" />
-    <option name="LAST_COMMIT_MESSAGE" value="Linter aplliqué à mon projet avec la commande php-cs-fixer fix --using-cache=no --rules=@Symfony src" />
+    <MESSAGE value="Tests avec les coverages" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests avec les coverages" />
   </component>
   <component name="WindowStateProjectService">
     <state x="722" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599745912756">
@@ -398,10 +403,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1599947723819" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600030355621">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1600333843483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600030355621" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600333843483" />
     <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1599689089464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
