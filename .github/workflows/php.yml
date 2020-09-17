@@ -15,10 +15,8 @@ jobs:
     - uses: actions/checkout@v2
     - uses: php-actions/composer@v1 # or alternative dependency management
     - uses: php-actions/phpunit@v9
-
     - name: Validate composer.json and composer.lock
       run: composer validate
-
     - name: Cache Composer packages
       id: composer-cache
       uses: actions/cache@v2
@@ -27,11 +25,9 @@ jobs:
         key: ${{ runner.os }}-php-${{ hashFiles('**/composer.lock') }}
         restore-keys: |
           ${{ runner.os }}-php-
-
     - name: Install dependencies
       if: steps.composer-cache.outputs.cache-hit != 'true'
       run: composer install --prefer-dist --no-progress --no-suggest
-     
     - name: Run Mysql
     - uses: mirromutth/mysql-action@v1.1
       with:
@@ -39,7 +35,6 @@ jobs:
         mysql database: 'magestionmateriel' # Optional, default value is "test". The specified database which will be create
         mysql user: 'myadmin' # Required if "mysql root password" is empty, default is empty. The superuser for the specified database. Can use secrets, too
         mysql password: password
-      
     - name: Test
       uses: php-actions/phpunit@v9
       with:
