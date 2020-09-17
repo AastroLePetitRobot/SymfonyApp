@@ -31,7 +31,9 @@ jobs:
         mysql version: '5.7' # Optional, default value is "latest". The version of the MySQL
         mysql database: 'magestionmateriel' # Optional, default value is "test". The specified database which will be create
         mysql user: 'myadmin' # Required if "mysql root password" is empty, default is empty. The superuser for the specified database. Can use secrets, too
-        mysql password: password                                                                                                    
+        mysql password: password   
+    - name: Test
+      run: php bin/console doctrine:schema:update --force                                                                                              
     - name: Test
       run: php bin/phpunit --coverage-text tests/
 
