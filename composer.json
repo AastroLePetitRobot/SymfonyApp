@@ -1,4 +1,6 @@
 {
+    "name" : "vendor/monolog",
+    "description": "1.0.0",
     "type": "project",
     "license": "proprietary",
     "require": {
