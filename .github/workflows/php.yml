@@ -14,7 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: php-actions/composer@v1 # or alternative dependency management
-    - uses: php-actions/phpunit@v9
     - name: Validate composer.json and composer.lock
       run: composer validate
     - name: Cache Composer packages
@@ -36,8 +35,6 @@ jobs:
         mysql user: 'myadmin' # Required if "mysql root password" is empty, default is empty. The superuser for the specified database. Can use secrets, too
         mysql password: password
     - name: Test
-      uses: php-actions/phpunit@v9
-      with:
-        configuration: /phpunitxml.dist
+      run: php bin/phpunit --coverage-text tests/
       
     
