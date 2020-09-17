@@ -22,24 +22,5 @@ class HomeControllerTest extends WebTestCase
         $client->request('GET','/materiels');
         $this->assertResponseStatusCodeSame(Response::HTTP_OK);
     }
-    public function testValidFormPost()
-    {
-        $client = static::createClient();
-        $crawler = $client->request('GET', '/');
-
-        $buttonCrawlerNode = $crawler->selectButton('Ajouter');
-
-        $form = $buttonCrawlerNode->form();
-
-        $form = $buttonCrawlerNode->form([
-            'materiel[type]' => 'pc',
-            'materiel[number]' => '667',
-            'materiel[description]' => 'Ekip',
-        ]);
-        $form = $buttonCrawlerNode->form([], 'DELETE');
-        $client->submit($form);
-        $this->assertResponseStatusCodeSame(Response::HTTP_OK);
-
-    }
 
 }
